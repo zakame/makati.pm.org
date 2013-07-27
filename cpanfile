@@ -11,6 +11,7 @@ requires 'Plack::Middleware::Session'     , '0';
 requires 'Plack::Session'                 , '0.14';
 requires 'Test::WWW::Mechanize::PSGI'     , '0';
 requires 'Time::Piece'                    , '1.20';
+requires 'Text::MultiMarkdown'            , '0';
 
 on 'configure' => sub {
    requires 'Module::Build', '0.38';

@@ -1,5 +1,13 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
+  Algorithm-Diff-1.1902
+    pathname: T/TY/TYEMQ/Algorithm-Diff-1.1902.tar.gz
+    provides:
+      Algorithm::Diff 1.1902
+      Algorithm::Diff::_impl 1.1902
+      Algorithm::DiffOld 1.1
+    requirements:
+      ExtUtils::MakeMaker 0
   Amon2-3.85
     pathname: T/TO/TOKUHIROM/Amon2-3.85.tar.gz
     provides:
@@ -703,6 +711,15 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006002
+  List-MoreUtils-0.33
+    pathname: A/AD/ADAMK/List-MoreUtils-0.33.tar.gz
+    provides:
+      List::MoreUtils 0.33
+    requirements:
+      ExtUtils::CBuilder 0.27
+      ExtUtils::MakeMaker 6.52
+      Test::More 0.82
+      perl 5.00503
   MRO-Compat-0.12
     pathname: B/BO/BOBTFISH/MRO-Compat-0.12.tar.gz
     provides:
@@ -1090,6 +1107,15 @@ DISTRIBUTIONS
       Test::More 0
       Test::NoWarnings 0.02
       Test::Tester 0.04
+  Test-Differences-0.61
+    pathname: O/OV/OVID/Test-Differences-0.61.tar.gz
+    provides:
+      Test::Differences 0.61
+    requirements:
+      Data::Dumper 2.126
+      Module::Build 0.36
+      Test::More 0
+      Text::Diff 0.35
   Test-Exception-0.32
     pathname: A/AD/ADIE/Test-Exception-0.32.tar.gz
     provides:
@@ -1230,6 +1256,45 @@ DISTRIBUTIONS
       Test::More 0
       Tree::DAG_Node 1.02
       perl 5.006
+  Text-Diff-1.41
+    pathname: O/OV/OVID/Text-Diff-1.41.tar.gz
+    provides:
+      Text::Diff 1.41
+      Text::Diff::Base 1.41
+      Text::Diff::Config 1.41
+      Text::Diff::Table 1.41
+    requirements:
+      Algorithm::Diff 1.19
+      Exporter 0
+      ExtUtils::MakeMaker 0
+  Text-Markdown-1.000031
+    pathname: B/BO/BOBTFISH/Text-Markdown-1.000031.tar.gz
+    provides:
+      Text::Markdown 1.000031
+    requirements:
+      Digest::MD5 0
+      Encode 0
+      ExtUtils::MakeMaker 6.42
+      FindBin 0
+      List::MoreUtils 0
+      Test::Differences 0
+      Test::Exception 0
+      Test::More 0.42
+      Text::Balanced 0
+  Text-MultiMarkdown-1.000034
+    pathname: B/BO/BOBTFISH/Text-MultiMarkdown-1.000034.tar.gz
+    provides:
+      Text::MultiMarkdown 1.000034
+    requirements:
+      Digest::MD5 0
+      Encode 0
+      ExtUtils::MakeMaker 6.42
+      FindBin 0
+      List::MoreUtils 0
+      Test::Exception 0
+      Test::More 0.42
+      Text::Markdown v1.0.26
+      perl 5.008
   Tree-DAG_Node-1.12
     pathname: R/RS/RSAVAGE/Tree-DAG_Node-1.12.tgz
     provides:
