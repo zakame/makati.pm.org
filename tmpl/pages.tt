@@ -1,0 +1,6 @@
+[% WRAPPER 'include/layout.tt' %]
+
+<div class="container">
+[% p | mark_raw %]
+</div>
+[% END %]
